@@ -25,7 +25,7 @@ func answerOne() {
 }
 
 func answerTwo() {
-	keyAnswer := "/home/zack/download/hayolo130/anjaymabarprofesional"
+	keyAnswer := "~/directory-banyak-bgt-bjir/hayolo130/anjaymabarprofesional"
 	if keyAnswer != *userAnswer {
 		fmt.Println("Sorry, That is not a valid answer.")
 	} else {
@@ -58,13 +58,14 @@ func answerThree() {
 	}
 	keyAnswerSecond := "hallo gays, ini IG ku dnfpr_int, follow peliss"
 
-	if keyAnswerFirst != *userAnswer {
-		fmt.Println("Sorry, That is not a valid answer for the date.")
-	}
-	if keyAnswerSecond != massage {
-		fmt.Println("sorry, that is not a valid answer for the file")
+	if keyAnswerFirst == *userAnswer {
+		if keyAnswerSecond != massage {
+			fmt.Println("sorry, that is not a valid answer for the file")
+		} else {
+			fmt.Println(`Correct!, Here's the flag : LabProyekFun{SELAMAT DATANG TEK 62 :)))))))!!!!!}`)
+		}
 	} else {
-		fmt.Println(`Correct!, Here's the flag : LabProyekFun{SELAMAT DATANG TEK 62 :)))))))!!!!!}`)
+		fmt.Println("Sorry, That is not a valid answer for the date.")
 	}
 
 }
