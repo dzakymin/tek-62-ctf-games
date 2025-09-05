@@ -25,7 +25,7 @@ func answerOne() {
 }
 
 func answerTwo() {
-	keyAnswer := "~/directory-banyak-bgt-bjir/hayolo130/anjaymabarprofesional"
+	keyAnswer := `~/directory-banyak-bgt-bjir/hayolo130/anjaymabarprofesional`
 	if keyAnswer != *userAnswer {
 		fmt.Println("Sorry, That is not a valid answer.")
 	} else {
