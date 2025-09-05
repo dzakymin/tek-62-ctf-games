@@ -1,4 +1,3 @@
-// this is for maintaining purposes
 package main
 
 import (
