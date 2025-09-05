@@ -1,3 +1,4 @@
+// this is for maintaining purposes
 package main
 
 import (
@@ -25,8 +26,10 @@ func answerTwo() {
 	keyAnswer := "/home/zack/download/hayolo130/anjaymabarprofesional"
 	if keyAnswer != *userAnswer {
 		fmt.Println("Sorry, That is not a valid answer.")
+	} else {
+		fmt.Println(`Correct!, Here's the flag : LabProyekFun{Kenapa unik?, ya gapapa pengen aja bilang gitu}`)
 	}
-	fmt.Println(`Correct!, Here's the flag : LabProyekFun{Kenapa unik?, ya gapapa pengen aja bilang gitu}`)
+
 }
 
 func answerThree() {
