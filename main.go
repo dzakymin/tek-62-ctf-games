@@ -18,8 +18,10 @@ func answerOne() {
 	keyAnswer := "/etc/hostname"
 	if keyAnswer != *userAnswer {
 		fmt.Println("Sorry, That is not a valid answer.")
+	} else {
+		fmt.Println(`Correct!, Here's the flag : LabProyekFun{Ngonfig hostname penting bro, ngasi tau aja}`)
 	}
-	fmt.Println(`Correct!, Here's the flag : LabProyekFun{Ngonfig hostname penting bro, ngasi tau aja}`)
+
 }
 
 func answerTwo() {
@@ -61,8 +63,10 @@ func answerThree() {
 	}
 	if keyAnswerSecond != massage {
 		fmt.Println("sorry, that is not a valid answer for the file")
+	} else {
+		fmt.Println(`Correct!, Here's the flag : LabProyekFun{SELAMAT DATANG TEK 62 :)))))))!!!!!}`)
 	}
-	fmt.Println(`Correct!, Here's the flag : LabProyekFun{SELAMAT DATANG TEK 62 :)))))))!!!!!}`)
+
 }
 func main() {
 	getNumbers = flag.String("n", "false", "use -n to choose soal")
